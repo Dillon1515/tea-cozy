@@ -3,5 +3,20 @@ html {
     font-size: 22px;
     color: seashell;
     background-color: black;
-    opacity: .09;
 }
+
+.cozy {
+    height: 69px;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    display: inline-flex;
+
+}
+
+nav {
+    display: inline-flex;
+    text-decoration: underline;
+}
+#logo {
+    display: inline-flex;
+    flex-direction
