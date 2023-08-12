@@ -9,14 +9,39 @@ html {
     height: 69px;
     position: fixed;
     border-bottom: 1px solid seashell;
-    display: inline-flex;
+    display: flex;
+    background-color: black;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
-nav {
+.navigation li{
     display: inline-flex;
     text-decoration: underline;
+    list-style: none;
+    padding-right: 25px;
 }
 #logo {
     display: inline-flex;
-    flex-direction
+    flex-direction: row;
+    margin-left: 10px;
+    height: 50px;
+}
+
+.mission {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1fl1dm6*_ga*Nzg4NDM3OTk2My4xNjg4MDgwMzQx*_ga_3LRZM6TM9L*MTY5MTg0ODMxOC4yMy4xLjE2OTE4NDgzMzkuMzkuMC4w);
+    align-content: center;
+    background-position: center;
+    width: 1200px;
+    height: 700px;
+}
+
+.goals {
+    background-color: black;
+    text-align: center;
+    position: relative;
+    top: 300px;
+    
+}
